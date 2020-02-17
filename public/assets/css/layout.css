@@ -1577,10 +1577,10 @@ article:last-child {
   #main section.cover {
     padding: 5em 0;
   }
-
+/* 
   #headerToggle {
     display: none;
-  }
+  } */
 }
 
 @media screen and (min-width: 961px) and (max-width: 1320px) {

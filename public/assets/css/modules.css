@@ -588,6 +588,17 @@ button:active,
   background-image: url("images/overlay.png");
 }
 
+#bgvideo {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 0;
+}
+
+#main h2 {
+  margin-bottom: 1em;
+}
+
 #main>section.dark {
   color: #ddd;
   color: rgba(255, 255, 255, 0.75);
@@ -638,19 +649,15 @@ button:active,
   background-color: #e8edec;
 }
 
-@media screen and (min-width: 961px) and (max-width: 1320px) {
+/* legacy styling for alt menu style */
+/* @media screen and (min-width: 961px) and (max-width: 1320px) {
   ul.icons li a {
     width: 1.75em;
   }
 
-  /* Item */
-
   .item {
     margin-bottom: 20px;
   }
-
-  /* Header */
-
 
   #logo .image {
     position: relative;
@@ -672,7 +679,7 @@ button:active,
     margin-left: -1.25em;
     line-height: 2.25em;
   }
-}
+} */
 
 @media screen and (max-width: 960px) {
 
